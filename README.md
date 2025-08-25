@@ -21,7 +21,6 @@ The app features:
 - Server-side API routes
 - Dynamic product data using **MongoDB**
 - Responsive and themeable design using **Tailwind CSS + DaisyUI**
-- Dark/Light mode support
 
 ---
 
@@ -39,24 +38,6 @@ The app features:
 ### Protected Pages
 - Add new products (only for logged-in users)
 
-### Optional Enhancements
-- Loading spinner on form submission
-- Dark/Light theme toggle
-
----
-
-## 🛣 Route Summary
-
-| Route                         | Method  | Description                        | Auth Required |
-|--------------------------------|--------|------------------------------------|---------------|
-| `/products`                     | GET    | List all products                  | ❌ No         |
-| `/products/[id]`                | GET    | View details of a single product   | ❌ No         |
-| `/dashboard/add-product`        | GET/POST | Add a new product (form + API)   | ✅ Yes        |
-| `/api/products`                 | GET    | Fetch all products (JSON)          | ❌ No         |
-| `/api/products`                 | POST   | Add a new product                  | ✅ Yes        |
-| `/api/products/[id]`            | GET    | Fetch a single product by ID       | ❌ No         |
-
----
 
 ## 🛠 Setup & Installation
 
